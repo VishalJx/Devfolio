@@ -177,7 +177,7 @@ and (max-width: 479px) {
         font-size: 50.5%;
     }
     .block{
-        min-height:190vh;
+        min-height:170vh;
     }
     .fit{
         height:140rem;

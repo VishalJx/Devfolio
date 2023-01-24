@@ -1,5 +1,4 @@
 import React from "react"
-import {AiOutlinePhone,AiOutlineMail,AiOutlineHome,AiOutlineEdit} from 'react-icons/ai'
 import {RiContactsLine} from 'react-icons/ri'
 
 import '../Style/Contact.css'

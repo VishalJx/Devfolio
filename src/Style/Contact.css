@@ -252,6 +252,9 @@ and (max-width: 479px) {
     html{
         font-size: 52.5%;
     }
+    .contact{
+        margin-top:15rem;
+    }
 
     .contact-page{
         display: flex;
