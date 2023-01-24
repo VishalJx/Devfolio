@@ -1,0 +1,184 @@
+html{
+    font-size: 62.5%;
+}
+.home-body{
+    background-image: url("https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg?w=2000");
+    height:95vh;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:90rem;
+    margin-bottom: 10rem;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#intro2{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 5rem; 
+    color:#17252A;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 rgb(83, 81, 81);
+    margin:0.2rem;
+    margin-left: 0.7rem;
+}
+#intro1{
+    color:rgb(95, 95, 95);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 4rem; 
+    font-weight: bold;
+    margin:0.2rem;
+}
+#am{
+    display: flex;
+    font-family: 'Courier New', monospace;
+    letter-spacing: -1px;
+    font-size:2rem;
+    font-stretch: ultra-condensed;
+    font-weight: bolder;
+    padding: 1px;
+}
+.social-list{
+    display: flex;
+    justify-content:space-around;
+    text-decoration: none;
+    list-style: none;
+    width:30rem;
+    height: 5.5rem;
+    font-size:3.5rem;
+    padding: 0px;
+    /* border: 1px solid black; */
+}
+#social-media-icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.8rem;
+    border-radius: 100%;
+    font-size:3.5rem;
+}
+.linkedin{
+    background-color: #000022;
+    color:#ec5e00;
+}
+.linkedin:hover{
+    background-color:rgb(28, 43, 175);
+    color:white;
+    filter:drop-shadow(0px 0px 1px rgb(2, 22, 201));
+    transition: 0.3s ease-out;
+}
+.instagram{
+    background-color: #000022;
+    color:#ec5e00;
+}
+.instagram:hover{
+    background-color:rgb(243, 24, 177);
+    color:white;
+    filter:drop-shadow(0px 0px 1px rgb(243, 24, 177));
+    transition: 0.3s ease-out;
+}
+.github{
+    color:#ec5e00;
+    background-color: #000022;
+}
+.github:hover{
+    background-color:rgb(136, 136, 136);
+    color:white;
+    filter:drop-shadow(0px 0px 1px rgb(138, 138, 138));
+    transition: 0.3s ease-out;
+}
+.twitter{
+    color:#ec5e00;
+    background-color: #000022;
+}
+.twitter:hover{
+    background-color:rgb(10, 173, 238);
+    color:white;
+    filter:drop-shadow(0px 0px 1px rgb(15, 174, 236));
+    transition: 0.3s ease-out;
+}
+#more-button{
+    font-size:1.5rem;
+    border-radius: 20px;
+    background-color:#570202;
+    padding: 10px 10px;
+    margin: 20px;
+}
+#more-button:hover{
+    filter:drop-shadow(0px 0px 2px rgb(141, 25, 4));
+    background-color:#f33434;
+    padding: 10px 10px;
+    margin: 20px;
+    transition: 0.3s;
+}
+#about-link-2{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+}
+
+                    /* MEDIA-QUERIES FURTHER*/
+
+
+
+/* //tablet landscape */
+@media screen and (min-width: 1024px) and (max-width: 1600px)  {
+    html{
+        font-size: 55.5%;
+
+    }
+
+}
+
+/* //tablet portrait */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+
+}
+
+
+/* //smartphone landscape */
+@media screen and (min-width: 480px) and (max-width: 767px)  {
+    html{
+        font-size: 55.5%;
+    }
+    .home{
+        margin-left: 0px;
+        min-width: 340px;
+    }
+    .intro{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #am{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+/* //smartphone portrait */
+@media screen and (min-width: 300px) and (max-width: 479px) {
+    html{
+        font-size: 50.5%;
+    }
+
+    .intro{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #am{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
